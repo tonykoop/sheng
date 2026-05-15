@@ -1,0 +1,6 @@
+part_id,branch,part,rough_dimensions,final_dimensions,status,authority,notes
+CUT-001,traditional-side-branch,side-branch single-pipe blank,TBD,TBD,measurement-required,future_dxf_or_measured_template,Length comes from branch family-spec then single-pipe validation
+CUT-002,compact-control,closed-open control pipe blank,TBD,TBD,measurement-required,future_dxf_or_measured_template,Length comes from branch family-spec then single-pipe validation
+CUT-003,both,reed coupon plate,TBD,TBD,measurement-required,future_dxf_or_measured_template,Do not cut until reed window and clamp line are drawn
+CUT-004,both,gasket coupon,TBD,TBD,measurement-required,future_dxf_or_measured_template,Do not cut until leak land and service direction are drawn
+

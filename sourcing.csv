@@ -1,0 +1,6 @@
+source_id,branch,component,source_status,search_terms,required_spec,notes
+SRC-001,both,sheng reed candidates,supplier_spec_unverified,"sheng replacement reed brass free reed","reed material pitch window dimensions not yet measured",Verify at purchase time; no current price or availability claim
+SRC-002,compact-control,donor melodica reed candidates,supplier_spec_unverified,"melodica reed plate donor replacement reeds","individual reed plate or salvageable donor reed",Use only as a coupon candidate until measured
+SRC-003,traditional-side-branch,bamboo or hardwood pipe stock,substitution_candidate,"thin wall bamboo tube hardwood dowel bore blank","stable straight stock sized for single-pipe control",Stock dimensions are not authority for pipe length
+SRC-004,both,gasket material,supplier_spec_unverified,"thin closed cell gasket sheet instrument reed plate","compressible leak-control gasket compatible with reed plate",Choose after gasket land and compression stop are drawn
+

@@ -1,0 +1,11 @@
+check_id,area,required_layer_or_view,required_content,pass_fail,notes
+DXF-001,architecture_branch,NOTES_NO_CUT,Branch label names traditional-side-branch or compact-control,,
+DXF-002,reed_window,REED_WINDOW_CUT,Reed tongue outline frame or window clamp line and tongue travel direction,,
+DXF-003,reed_window,CLEARANCE_NO_CUT,Minimum tongue clearance and no-cut note naming reed material and thickness,,
+DXF-004,socket_pitch_map,SOCKET_CENTER_REF,Pipe ID reed ID target note acoustic_law end_condition pipe length and socket center,,
+DXF-005,gasket,GASKET_CUT,Gasket outline screw or dowel holes compression stop and leak land,,
+DXF-006,windchest,WINDCHEST_SECTION,Air inlet chamber volume assumption removable cover and pressure path,,
+DXF-007,boundary_condition,NOTES_NO_CUT,side_branch_reed versus closed_open note for each pipe,,
+DXF-008,serviceability,SERVICE_ACCESS_REF,Reed plate removal direction fastener access and gasket replacement path,,
+DXF-009,validation,COUPON_VARIANT_REF,Whether file is P0 coupon single-pipe control or family body,,
+

@@ -1,0 +1,7 @@
+item_id,branch,item,qty,status,source_status,authority,notes
+BOM-001,both,free reed coupon blanks,2 measurement sets,measurement-required,supplier_spec_unverified,not_fabrication_authority,Use only after reed-alone pitch and onset are measured
+BOM-002,traditional-side-branch,long pipe stock for side-branch control,1 single-pipe test,measurement-required,substitution_candidate,not_fabrication_authority,Bamboo or hardwood candidate; final length comes after coupon validation
+BOM-003,compact-control,short control-pipe test core,1 single-pipe test,measurement-required,substitution_candidate,not_fabrication_authority,Hardwood or printed test core for serviceable closed-open module
+BOM-004,both,gasket sheet and fasteners,1 coupon set,measurement-required,supplier_spec_unverified,not_fabrication_authority,Choose after leak-land geometry is drawn
+BOM-005,both,windchest test block,1 coupon fixture,measurement-required,substitution_candidate,not_fabrication_authority,Fixture for pressure path and service access experiments
+

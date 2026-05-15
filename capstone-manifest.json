@@ -1,0 +1,23 @@
+{
+  "generated": "2026-05-10",
+  "packet": "docs/build-packets/sheng-mouth-organ-family",
+  "issue": "tonykoop/instrument-maker#153",
+  "status": "scaffold-not-build-ready",
+  "variants": [
+    {
+      "branch": "traditional-side-branch",
+      "family_spec": "traditional-side-branch/family-spec.csv",
+      "acoustic_law": "side_branch_reed",
+      "end_condition": "both_ends_open"
+    },
+    {
+      "branch": "compact-control",
+      "family_spec": "compact-control/family-spec.csv",
+      "acoustic_law": "closed_open",
+      "end_condition": "one_end_closed_reed"
+    }
+  ],
+  "fabrication_authority": "future DXF/CAD/design-table/measured-template only",
+  "generated_images_authority": "concept_only_or_reference_only"
+}
+
