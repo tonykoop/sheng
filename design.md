@@ -2,7 +2,7 @@
 
 Generated: 2026-05-10
 
-Issue addressed: tonykoop/instrument-maker#153.
+Issues addressed: tonykoop/instrument-maker#153; tonykoop/sheng#1.
 V5 readiness: L2 V5 build-packet candidate, not L3/L4.
 V5 standard source: tonykoop/instrument-maker#186.
 MCP provenance source: tonykoop/instrument-maker#188.
@@ -71,6 +71,15 @@ one traditional side-branch single pipe and one compact closed-open control
 before choosing a full-family body layout. P1 rows must cite their P0 coupon ID
 and report coupled pitch error; blank P1 rows block any L3 or build-ready claim.
 
+`free-reed-empirical-loop.md` is the bench protocol for both phases. It keeps
+the test order explicit: source and inspect the reed, fixture it mechanically,
+measure reed-alone pitch and onset, test pull-down behavior, then move the same
+coupon into one single-pipe control only after safety and leakage gates pass.
+
+`windchest-geometry-plan.csv` is a planning table, not fabrication geometry. It
+names chamber volume, pressure path, gasket land, pressure tap, inlet, service
+direction, and leak-test evidence that a future DXF or CAD file must carry.
+
 ## Open Measurements
 
 | Measurement | Why It Matters | Status |
@@ -80,6 +89,8 @@ and report coupled pitch error; blank P1 rows block any L3 or build-ready claim.
 | Reed tongue gap and window geometry | Controls response, choking, and leakage | measurement-required |
 | Gasket leak rate and service access | Controls repeatability and repairability | measurement-required |
 | Single-pipe coupled pitch | Confirms the selected acoustic law before family layout | measurement-required |
+| Windchest chamber leak behavior | Separates reed instability from fixture leakage | measurement-required |
+| Safe pressure limit and reed retention | Prevents loose reed parts or overpressure during tests | measurement-required |
 
 ## Branch Promotion Gates
 
@@ -92,6 +103,9 @@ Move a branch from scaffold to prototype only when:
   matches the declared acoustic law.
 - The DXF/CAD checklist identifies branch, end condition, reed window, socket
   map, gasket land, windchest section, and service direction.
+- The windchest plan records chamber volume, pressure tap, inlet, gasket land,
+  leak-test method, leak status, and service access for the chosen branch.
+- `safety-gates.csv` has no open stop conditions for the phase being promoted.
 - `visual-output-register.csv` keeps generated or concept visuals out of the
   fabrication authority chain.
 - `cad/mcp-session-log.md` names any external CAD/creative/runtime tool output

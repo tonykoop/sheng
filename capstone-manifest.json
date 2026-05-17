@@ -1,7 +1,7 @@
 {
   "generated": "2026-05-10",
   "packet": "docs/build-packets/sheng-mouth-organ-family",
-  "issue": "tonykoop/instrument-maker#153",
+  "issue": "tonykoop/instrument-maker#153; tonykoop/sheng#1",
   "status": "L2 V5 build-packet candidate",
   "v5_standard": "tonykoop/instrument-maker#186",
   "mcp_provenance_contract": "tonykoop/instrument-maker#188",
@@ -25,5 +25,8 @@
   "authority_register": "visual-output-register.csv",
   "mcp_session_log": "cad/mcp-session-log.md",
   "p0_coupon_log": "p0-reed-coupon-log.csv",
-  "p1_control_log": "p1-single-pipe-control-log.csv"
+  "p1_control_log": "p1-single-pipe-control-log.csv",
+  "p0_p1_empirical_loop": "free-reed-empirical-loop.md",
+  "windchest_geometry_plan": "windchest-geometry-plan.csv",
+  "safety_gates": "safety-gates.csv"
 }

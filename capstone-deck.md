@@ -1,7 +1,8 @@
 # Project Intent
 
-Publish the sheng split from issue #153 as two explicit packet variants without
-forcing a premature architecture winner.
+Publish the sheng split from issue #153 and the `tonykoop/sheng` issue #1
+starter packet as two explicit packet variants without forcing a premature
+architecture winner.
 
 # Branch Decision
 
@@ -25,11 +26,16 @@ measurements prove a shared acoustic model.
 # Coupon Gate
 
 The P0 reed coupon records reed-alone pitch, onset pressure, blow/draw behavior,
-gap, window size, and leak status.
+gap, window size, pull-down behavior, retention, and leak status.
 
 # Single-Pipe Gate
 
 One measured single-pipe control comes before any full mouth-organ body layout.
+
+# Windchest Gate
+
+Chamber volume, pressure tap, gasket land, inlet, service access, and leak
+method stay in planning tables until measured evidence exists.
 
 # Drawing Authority
 
@@ -46,11 +52,11 @@ Current status is scaffold. This packet is not build-ready.
 
 # Risks
 
-The primary risks are unmeasured reed behavior, leakage, and accidental branch
-mixing.
+The primary risks are unmeasured reed behavior, chamber leakage, unsafe
+pressure testing, and accidental branch mixing.
 
 # Next Actions
 
-Pick a branch, fill the P0 coupon log, build one single-pipe control, then
-revise the selected branch sheet with measured evidence.
-
+Pick a branch, fill the P0 coupon and safety gates, build one single-pipe
+control, run chamber leak checks, then revise the selected branch sheet with
+measured evidence.

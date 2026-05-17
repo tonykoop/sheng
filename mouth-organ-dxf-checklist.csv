@@ -8,4 +8,6 @@ DXF-006,windchest,WINDCHEST_SECTION,Air inlet chamber volume assumption removabl
 DXF-007,boundary_condition,NOTES_NO_CUT,side_branch_reed versus closed_open note for each pipe,,
 DXF-008,serviceability,SERVICE_ACCESS_REF,Reed plate removal direction fastener access and gasket replacement path,,
 DXF-009,validation,COUPON_VARIANT_REF,Whether file is P0 coupon single-pipe control or family body,,
-
+DXF-010,pressure_test,PRESSURE_TAP_REF,Pressure tap location manometer range leak-test plug and safe pressure limit,,
+DXF-011,chamber_leakage,GASKET_LAND_REF,Gasket land width compression stop screw or clamp pattern and leak-check path,,
+DXF-012,safety,NOTES_NO_CUT,Deburr note reed-retention note eye-protection note and stop condition for loose reed parts,,

@@ -5,3 +5,7 @@ CAD-P0-003,both,P0,p0-reed-coupon-log.csv,gasket_leak_limit,TBD,TBD,unknown_requ
 CAD-P1-TRAD-001,traditional-side-branch,P1,traditional-side-branch/family-spec.csv,predicted_A4_pipe_length,381.6,mm,physics_derived,analysis_only,Half-wave side-branch row; not cut-ready until coupled pitch is measured
 CAD-P1-COMP-001,compact-control,P1,compact-control/family-spec.csv,predicted_A4_pipe_length,190.8,mm,physics_derived,analysis_only,Quarter-wave compact row; not cut-ready until coupled pitch is measured
 CAD-P1-004,both,P1,p1-single-pipe-control-log.csv,coupled_pitch_error,TBD,cents,unknown_requires_measurement,measurement_required,Required before branch promotion beyond L2
+CAD-WC-001,both,P1,windchest-geometry-plan.csv,chamber_volume,TBD,ml,unknown_requires_measurement,measurement_required,Planning field only; must be measured or reviewed before CAD authority
+CAD-WC-002,both,P1,windchest-geometry-plan.csv,pressure_tap_location,TBD,TBD,unknown_requires_measurement,measurement_required,Needed to separate onset pressure from chamber leakage
+CAD-WC-003,both,P1,windchest-geometry-plan.csv,gasket_land_width,TBD,mm,unknown_requires_measurement,measurement_required,Do not infer from concept images or visual BOM
+CAD-WC-004,both,P1,windchest-geometry-plan.csv,safe_pressure_limit,TBD,Pa,unknown_requires_measurement,measurement_required,Required safety gate before pressure tests

@@ -8,8 +8,9 @@ Current status: scaffold packet with two explicit architecture variants.
 Fabrication authority: not build-ready.
 Wolfram/runtime status: source-only; no Wolfram runtime validation has been run.
 
-This packet promotes the Round 8 sheng split from issue #153 without choosing
-a premature winner. The first workflow decision is the architecture branch:
+This packet promotes the Round 8 sheng split from issue #153 and the
+`tonykoop/sheng` issue #1 starter packet without choosing a premature winner.
+The first workflow decision is the architecture branch:
 
 - `traditional-side-branch/` keeps the traditional sheng-like side-branch reed
   model with both pipe ends open.
@@ -29,11 +30,15 @@ both layouts.
    sheng-like long-pipe geometry is the first design goal.
 3. Use `compact-control/family-spec.csv` when proving a short, serviceable
    reed-pipe module is the first design goal.
-4. Fill `p0-reed-coupon-log.csv` before claiming final reed pitch, onset
-   pressure, pull-down, or cut-ready socket geometry.
-5. Fill `p1-single-pipe-control-log.csv` before claiming coupled pipe pitch or
-   branch promotion beyond L2.
-6. Run the v4.4 acoustic-law validator on the chosen branch and the visual
+4. Follow `free-reed-empirical-loop.md` and fill `p0-reed-coupon-log.csv`
+   before claiming final reed pitch, onset pressure, pull-down, or cut-ready
+   socket geometry.
+5. Fill `p1-single-pipe-control-log.csv` and `windchest-geometry-plan.csv`
+   before claiming coupled pipe pitch, chamber leakage status, or branch
+   promotion beyond L2.
+6. Check `safety-gates.csv` before any reed cutting, pressure test, leak test,
+   or full-body layout.
+7. Run the v4.4 acoustic-law validator on the chosen branch and the visual
    authority validator on `visual-output-register.csv`.
 
 ## File Map
@@ -46,6 +51,9 @@ both layouts.
 | `compact-control/family-spec.csv` | Validator-aligned closed-open compact rows. |
 | `p0-reed-coupon-log.csv` | Required reed coupon worksheet before full-family claims. |
 | `p1-single-pipe-control-log.csv` | Required coupled reed-pipe worksheet before branch promotion. |
+| `free-reed-empirical-loop.md` | P0/P1 bench protocol with pull-down, onset, leak, and stop gates. |
+| `windchest-geometry-plan.csv` | Chamber, gasket, inlet, pressure tap, and service-access planning table. |
+| `safety-gates.csv` | Safety gates that must pass before cutting, pressure testing, or layout promotion. |
 | `mouth-organ-dxf-checklist.csv` | Future DXF/CAD authority checklist. |
 | `visual-output-register.csv` | V5 authority register for visuals, print packet, and concept support. |
 | `cad/` | V5 CAD/provenance starter folder; not fabrication authority yet. |

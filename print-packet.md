@@ -6,8 +6,8 @@ Status: L2 V5 build-packet candidate, not build-ready.
 
 ## Issue
 
-This packet addresses tonykoop/instrument-maker#153 by promoting both Round 8
-sheng branches as explicit variants:
+This packet addresses tonykoop/instrument-maker#153 and tonykoop/sheng#1 by
+promoting both Round 8 sheng branches as explicit variants:
 
 - `traditional-side-branch/family-spec.csv`
 - `compact-control/family-spec.csv`
@@ -23,6 +23,10 @@ are meant to pass the validator while preserving different boundary conditions.
 
 Run the visual authority validator on `visual-output-register.csv`. This print
 packet is reference-only layout support, not fabrication authority.
+
+Use `free-reed-empirical-loop.md`, `windchest-geometry-plan.csv`, and
+`safety-gates.csv` before any P0/P1 bench work. These files are planning and
+measurement templates, not cut geometry.
 
 ## Fabrication Authority
 
@@ -42,6 +46,9 @@ source artifacts. Wolfram work is source-only unless runtime evidence is added.
 - `compact-control/family-spec.csv`
 - `p0-reed-coupon-log.csv`
 - `p1-single-pipe-control-log.csv`
+- `free-reed-empirical-loop.md`
+- `windchest-geometry-plan.csv`
+- `safety-gates.csv`
 - `mouth-organ-dxf-checklist.csv`
 - `visual-output-register.csv`
 - `cad/mcp-session-log.md`

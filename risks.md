@@ -5,6 +5,7 @@
 - Free-reed pitch may not pull down to the target pipe note.
 - The same reed may behave differently in side-branch and closed-open layouts.
 - Leakage can make both branches appear falsely unstable.
+- Chamber leakage can masquerade as reed pull-down failure or poor onset.
 
 Mitigation: start with P0 coupon measurements, then one single-pipe control.
 
@@ -22,8 +23,11 @@ Mitigation: keep the first acoustic core removable and delay full-body CAD.
 - Sharp reed tongues and small metal edges need deburring and eye protection
   during tuning.
 - Blowing high pressure into a leaky fixture can eject loose reed parts.
+- Unregulated shop air can exceed safe onset-test pressure before the reed
+  speaks.
 
-Mitigation: fixture the reed plate mechanically and test at low pressure first.
+Mitigation: fixture the reed plate mechanically, deburr before handling, set a
+safe pressure limit, and test at low pressure first.
 
 ## Scope
 
@@ -31,4 +35,3 @@ Mitigation: fixture the reed plate mechanically and test at low pressure first.
 - A traditional side-branch layout can be valid without being compact.
 
 Mitigation: keep branch labels visible in every file and drawing.
-

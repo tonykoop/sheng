@@ -1,0 +1,8 @@
+gate_id,phase,hazard,required_check,pass_fail,status,stop_condition,next_action
+SAFE-001,P0,sharp_reed_edges,reed tongue and frame deburred before handling,,open,burr or cutting edge remains,deburr and re-inspect before pressure testing
+SAFE-002,P0,loose_reed_plate,mechanical retention confirmed without relying on hand pressure,,open,reed shifts lifts or ejects,redesign fixture before blowing or shop-air testing
+SAFE-003,P0,overpressure,onset sweep starts below logged safe pressure limit and rises slowly,,open,onset requires pressure above safe limit,stop coupon and revise reed gap or source
+SAFE-004,P0,uncontrolled_shop_air,manual bulb or regulated low-pressure source used for first tests,,open,unregulated air line connected,disconnect and add regulator or manual test source
+SAFE-005,P1,chamber_leak_confusion,low-pressure chamber leak test completed before pitch claims,,open,leak source is unknown,fix gasket or pressure path before acoustic interpretation
+SAFE-006,P1,service_access_failure,reed can be removed without breaking pipe or gasket land,,open,reed cannot be serviced,revise windchest geometry before family layout
+SAFE-007,P1,authority_overclaim,DXF CAD or image is not treated as cut-ready before P0 and P1 evidence,,open,visual or sketch becomes dimensional authority,mark artifact reference-only and restore L2 status
