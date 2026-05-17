@@ -1,0 +1,7 @@
+parameter_id,branch,phase,source_artifact,parameter,value,unit,status,authority,notes
+CAD-P0-001,both,P0,p0-reed-coupon-log.csv,reed_window_size,TBD,mm,unknown_requires_measurement,measurement_required,Must come from measured reed or reviewed donor reed drawing
+CAD-P0-002,both,P0,p0-reed-coupon-log.csv,tongue_gap,TBD,mm,unknown_requires_measurement,measurement_required,Do not infer from concept images
+CAD-P0-003,both,P0,p0-reed-coupon-log.csv,gasket_leak_limit,TBD,TBD,unknown_requires_measurement,measurement_required,Define after coupon fixture leak test
+CAD-P1-TRAD-001,traditional-side-branch,P1,traditional-side-branch/family-spec.csv,predicted_A4_pipe_length,381.6,mm,physics_derived,analysis_only,Half-wave side-branch row; not cut-ready until coupled pitch is measured
+CAD-P1-COMP-001,compact-control,P1,compact-control/family-spec.csv,predicted_A4_pipe_length,190.8,mm,physics_derived,analysis_only,Quarter-wave compact row; not cut-ready until coupled pitch is measured
+CAD-P1-004,both,P1,p1-single-pipe-control-log.csv,coupled_pitch_error,TBD,cents,unknown_requires_measurement,measurement_required,Required before branch promotion beyond L2

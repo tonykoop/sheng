@@ -2,7 +2,10 @@
   "generated": "2026-05-10",
   "packet": "docs/build-packets/sheng-mouth-organ-family",
   "issue": "tonykoop/instrument-maker#153",
-  "status": "scaffold-not-build-ready",
+  "status": "L2 V5 build-packet candidate",
+  "v5_standard": "tonykoop/instrument-maker#186",
+  "mcp_provenance_contract": "tonykoop/instrument-maker#188",
+  "runtime_validation": "wolfram-source-only-not-run",
   "variants": [
     {
       "branch": "traditional-side-branch",
@@ -18,6 +21,9 @@
     }
   ],
   "fabrication_authority": "future DXF/CAD/design-table/measured-template only",
-  "generated_images_authority": "concept_only_or_reference_only"
+  "generated_images_authority": "concept_only_or_reference_only",
+  "authority_register": "visual-output-register.csv",
+  "mcp_session_log": "cad/mcp-session-log.md",
+  "p0_coupon_log": "p0-reed-coupon-log.csv",
+  "p1_control_log": "p1-single-pipe-control-log.csv"
 }
-
