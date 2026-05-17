@@ -1,0 +1,3 @@
+capture_id,coupon_id,branch,target_note,target_pitch_hz,target_pull_down_cents,initial_pull_down_measurement_pa,pull_down_test_method,observed_pull_down_cents,choke_or_buzzy_behavior,safe_pressure_limit_pa,status,measured_at_utc,recorded_by,notes
+SNG-PD-TRAD-001,SNG-P0-TRAD-001,traditional-side-branch,A4,440.00,10-30,unknown-pressure-sweep-with-manometer,TBD,not_applicable,none,TBD,recording_pending,UNDEFINED,template,Run pull-down pressure sweep and confirm target pull-down before P1.
+SNG-PD-COMP-001,SNG-P0-COMP-001,compact-control,A4,440.00,10-30,unknown-pressure-sweep-with-manometer,TBD,not_applicable,TBD,recording_pending,UNDEFINED,template,Run pull-down pressure sweep and confirm target pull-down before P1.

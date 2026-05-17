@@ -1,0 +1,3 @@
+capture_id,coupon_id,branch,target_note,target_pitch_hz,onset_pressure_pa,onset_test_method,onset_velocity_profile,blow_behavior,draw_behavior,leak_or_hiss_observed,next_action,measurement_environment,recorded_by,recorded_at_utc,notes
+SNG-ON-TRAD-001,SNG-P0-TRAD-001,traditional-side-branch,A4,440.00,TBD,slow-ramp-manometer,not_logged,not_measured,not_measured,measurement_required,TBD,measurement_environment_unknown,template,UNDEFINED,Record onset behavior before any coupled-pipe or final geometry claims.
+SNG-ON-COMP-001,SNG-P0-COMP-001,compact-control,A4,440.00,TBD,slow-ramp-manometer,not_logged,not_measured,not_measured,measurement_required,TBD,measurement_environment_unknown,template,UNDEFINED,Record onset behavior before any coupled-pipe or final geometry claims.

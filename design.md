@@ -62,9 +62,15 @@ outputs; none of them upgrades the packet beyond L2.
 
 ## P0/P1 Validation Plan
 
-P0 is reed-alone evidence. Use `p0-reed-coupon-log.csv` to record reed source,
-reed-alone pitch, onset pressure, pull-down target, blow/draw behavior, gap,
-window size, gasket leak status, and measurement environment.
+P0 is reed-alone evidence. Use `p0-reed-coupon-data-sheet.csv` to
+record reed source, material, geometry, and fixture/safety pre-checks, and
+`p0-reed-coupon-log.csv` to record reed-alone pitch, onset pressure, pull-down
+target, blow/draw behavior, gap, window size, gasket leak status, and
+measurement environment.
+
+Collect free-reed behavior with dedicated capture forms before any P1 gate claim:
+- `p0-pull-down-capture-form.csv`
+- `p0-onset-capture-form.csv`
 
 P1 is coupled reed-pipe evidence. Use `p1-single-pipe-control-log.csv` to record
 one traditional side-branch single pipe and one compact closed-open control

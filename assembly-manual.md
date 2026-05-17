@@ -17,6 +17,8 @@ Status: scaffold-only sequence. Not build-ready.
 3. Measure reed-alone pitch.
 4. Measure onset pressure and blow/draw response.
 5. Record gasket leak status.
+6. Capture pull-down and onset details in
+   `p0-pull-down-capture-form.csv` and `p0-onset-capture-form.csv`.
 
 ## Single-Pipe Control
 
@@ -31,4 +33,3 @@ Status: scaffold-only sequence. Not build-ready.
 
 Stop before full sheng body layout until the coupon and single-pipe gates in
 `validation.csv` are complete.
-
