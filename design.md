@@ -3,6 +3,9 @@
 Generated: 2026-05-10
 
 Issue addressed: tonykoop/instrument-maker#153.
+V5 readiness: L2 V5 build-packet candidate, not L3/L4.
+V5 standard source: tonykoop/instrument-maker#186.
+MCP provenance source: tonykoop/instrument-maker#188.
 
 ## Scope
 
@@ -53,6 +56,21 @@ Generated images, concept sketches, or visual-BOM plates may support review but
 must not become dimensional authority for reed windows, pipe length, socket
 location, or windchest geometry.
 
+V5 packet authority is recorded in `visual-output-register.csv` and
+`cad/mcp-session-log.md`. Current rows are source scaffolds and reference-only
+outputs; none of them upgrades the packet beyond L2.
+
+## P0/P1 Validation Plan
+
+P0 is reed-alone evidence. Use `p0-reed-coupon-log.csv` to record reed source,
+reed-alone pitch, onset pressure, pull-down target, blow/draw behavior, gap,
+window size, gasket leak status, and measurement environment.
+
+P1 is coupled reed-pipe evidence. Use `p1-single-pipe-control-log.csv` to record
+one traditional side-branch single pipe and one compact closed-open control
+before choosing a full-family body layout. P1 rows must cite their P0 coupon ID
+and report coupled pitch error; blank P1 rows block any L3 or build-ready claim.
+
 ## Open Measurements
 
 | Measurement | Why It Matters | Status |
@@ -74,6 +92,10 @@ Move a branch from scaffold to prototype only when:
   matches the declared acoustic law.
 - The DXF/CAD checklist identifies branch, end condition, reed window, socket
   map, gasket land, windchest section, and service direction.
+- `visual-output-register.csv` keeps generated or concept visuals out of the
+  fabrication authority chain.
+- `cad/mcp-session-log.md` names any external CAD/creative/runtime tool output
+  and marks Wolfram work as source-only unless execution evidence exists.
 
 ## Safety and Scope Gates
 
@@ -82,4 +104,3 @@ Move a branch from scaffold to prototype only when:
 - Do not publish private family/media/archive contents.
 - Do not treat branch-comparison pipe lengths as cut-ready dimensions.
 - Do not collapse the two branch family specs into one fake universal answer.
-

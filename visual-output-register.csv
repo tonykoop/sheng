@@ -1,0 +1,5 @@
+artifact_id,path,artifact_kind,role,authority,dimension_claim,derived_from,fabrication_required,notes
+VIS-001,visual-bom-brief.md,photo_reference,visual_bom,reference_only,none,,false,Visual roles only; no dimensions.
+VIS-002,print-packet.pdf,drawing_pdf,visual_bom,reference_only,none,,false,Print layout support; not cut geometry.
+VIS-003,drawing-brief.md,photo_reference,photo_reference,reference_only,none,,false,Lists future drawings and authority gates.
+VIS-004,capstone-deck.pptx,drawing_pdf,story,reference_only,none,,false,Presentation artifact only.

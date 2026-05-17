@@ -2,7 +2,7 @@
 
 Generated: 2026-05-10
 
-Status: scaffold packet, not build-ready.
+Status: L2 V5 build-packet candidate, not build-ready.
 
 ## Issue
 
@@ -21,11 +21,17 @@ Read `architecture-choice.md` and select one branch before layout.
 Run the v4.4 acoustic-law validator on the selected branch. Both branch sheets
 are meant to pass the validator while preserving different boundary conditions.
 
+Run the visual authority validator on `visual-output-register.csv`. This print
+packet is reference-only layout support, not fabrication authority.
+
 ## Fabrication Authority
 
 No file in this packet is cut-ready authority yet. Future authority must come
 from measured coupon data, single-pipe control evidence, and DXF/CAD or design
 tables that name the selected branch.
+
+`cad/mcp-session-log.md` records V5 provenance for design-table and Wolfram
+source artifacts. Wolfram work is source-only unless runtime evidence is added.
 
 ## File Map
 
@@ -35,7 +41,11 @@ tables that name the selected branch.
 - `traditional-side-branch/family-spec.csv`
 - `compact-control/family-spec.csv`
 - `p0-reed-coupon-log.csv`
+- `p1-single-pipe-control-log.csv`
 - `mouth-organ-dxf-checklist.csv`
+- `visual-output-register.csv`
+- `cad/mcp-session-log.md`
+- `cad/p0-p1-control-parameters.csv`
 - `validation.csv`
 - `bom.csv`
 - `sourcing.csv`
@@ -46,4 +56,3 @@ tables that name the selected branch.
 - `visual-bom-brief.md`
 - `risks.md`
 - `wolfram-starter.wl`
-
