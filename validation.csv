@@ -10,3 +10,7 @@ VAL-008,both,visual_authority,visual-output-register.csv passes validate_visual_
 VAL-009,both,mcp_provenance,cad/mcp-session-log.md records design-table/Wolfram/visual tool outputs and authority,open,Update the log whenever a CAD creative or runtime tool changes an artifact
 VAL-010,both,wolfram_runtime,wolfram-starter.wl has execution log and committed outputs before runtime claims,open,Run Wolfram only when available and record command/date/output hashes
 VAL-011,both,v5_readiness,README status remains L2 until P0 P1 CAD/DXF and authority gates pass,open,Do not claim L3 or build-ready until evidence exists
+VAL-012,both,p0_pull_down_onset,p0-reed-coupon-log.csv records pull-down target measured pull-down onset method onset pressure and safe pressure limit,open,Run P0 pressure sweep and document stop conditions
+VAL-013,both,windchest_geometry_plan,windchest-geometry-plan.csv records chamber volume pressure path inlet pressure tap gasket land service direction and authority status,open,Fill planning fields before any windchest DXF or CAD
+VAL-014,both,chamber_leakage,p1-single-pipe-control-log.csv records chamber leak method rate leak status and service access result,open,Run low-pressure leak test before interpreting coupled pitch
+VAL-015,both,safety_gates,safety-gates.csv has phase gates checked before reed cutting pressure testing or branch promotion,open,Resolve open stop conditions before P0 or P1 bench work
