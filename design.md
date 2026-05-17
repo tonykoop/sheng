@@ -66,8 +66,8 @@ unmeasured. Candidate future laws include:
   side branch is validated by measured coupling.
 - `closed_open` with `one_end_closed_reed` if the reed behaves as the closed
   end in a compact control pipe.
-- `empirical_only` with `n_a_empirical` if measurements are useful but no stable
-  pipe law is justified.
+- continued `unknown_requires_measurement` with an empirical rationale if
+  measurements are useful but no stable pipe law is justified.
 
 Do not fill pipe lengths from a formula until the acoustic law and end
 condition are supported by measurements.
@@ -90,7 +90,8 @@ Move from this starter packet to family-scale sheng design only when:
    blow/draw behavior, and leak status.
 2. One single-pipe control records coupled pitch and pull-down.
 3. `family-spec.csv` can replace `unknown_requires_measurement` with a
-   justified acoustic law or explicitly remain empirical.
+   justified acoustic law or explicitly remain measurement-required with an
+   empirical rationale.
 4. A governing DXF/CAD/design table exists for the test article, with
    dimensions tied to measured or intentionally fixed values.
 5. BOM and sourcing records identify which parts are measured, in hand,
