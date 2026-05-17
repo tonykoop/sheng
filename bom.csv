@@ -1,0 +1,11 @@
+item_id,category,item,quantity,status,source_status,measurement_dependency,next_action,notes
+BOM-001,reed_stock,donor melodica/free-reed replacement reeds,1-3 candidate reeds,needed,supplier_spec_unverified,"reed_alone_pitch_hz; reed_material; reed_window_mm","source or salvage candidate reeds and log provenance","Do not assume donor note equals usable coupled pitch"
+BOM-002,reed_stock,brass or phosphor bronze reed blank stock,small sheet or strips,optional,substitution_candidate,"reed_thickness; temper; tongue_gap_mm","buy only if donor reeds are unavailable","Coupon-test before any family use"
+BOM-003,windchest,transparent acrylic or plywood coupon chamber,1 prototype,needed,substitution_candidate,"chamber_volume; leak_status; pressure_path","make a serviceable coupon box after reed size is known","Must allow reed removal and gasket inspection"
+BOM-004,pipes,removable straight test pipes,2-4 diameters/lengths,needed,measurement_required,"inside_diameter; wall_thickness; end_condition; coupled_pitch_hz","prepare after P0 reed-alone pitch is known","No final pipe length claims yet"
+BOM-005,gaskets,thin cork/silicone/urethane gasket sheet,small sheet,needed,supplier_spec_unverified,"compression_set; gasket_leak_status; land_width","test leak behavior with coupon chamber","Keep replaceable, not permanently glued"
+BOM-006,fasteners,small screws or clamps for reed plate and cover,TBD,needed,supplier_spec_unverified,"clamp_line; service_access","choose after reed plate thickness is measured","Avoid crushing reed plate or gasket"
+BOM-007,measurement,chromatic tuner or FFT app,1,needed,substitution_candidate,"reed_alone_pitch_hz; coupled_pitch_hz","confirm calibration/reference pitch before logging","Record app/tool name in measurement notes"
+BOM-008,measurement,low-range manometer or pressure sensor,1,needed,needs_supplier_quote,"onset_pressure_pa","source or borrow before onset tests","Pressure evidence is required before promotion"
+BOM-009,measurement,calipers and feeler gauges,1 each,needed,substitution_candidate,"reed_window_mm; gap_setting_mm; pipe_id_mm","measure every coupon setup","Log units and uncertainty"
+BOM-010,safety,eye protection and deburring tools,1 set,needed,substitution_candidate,"sharp_edge_status","use during reed cutting and filing","Free-reed tongues and brass edges are sharp"

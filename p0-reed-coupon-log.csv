@@ -1,0 +1,3 @@
+coupon_id,branch,reed_source,source_status,source_provenance,reed_material,reed_alone_pitch_hz,reed_alone_note,target_pipe_note,pull_down_cents,onset_pressure_pa,blow_behavior,draw_behavior,gap_setting_mm,window_size_mm,gasket_leak_status,measurement_environment,next_action,notes
+SNG-P0-001,control-build,donor melodica or replacement reed,supplier_spec_unverified,no part selected yet,unknown,,,,,,,,,,unknown,TBD,"select one candidate reed and measure reed-alone pitch before pipe CAD","Starter row only"
+SNG-P0-002,control-build,handmade brass or phosphor bronze blank,substitution_candidate,material category only,unknown,,,,,,,,,,unknown,TBD,"cut coupon only if donor reeds are not usable","Requires separate reed-making setup"

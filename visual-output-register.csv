@@ -1,0 +1,4 @@
+artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,notes
+DXF-001,future/reed-window-coupon.dxf,dxf,fabrication_geometry,fabrication,,derived_from_authority,"Placeholder record only; file not created until measurements exist"
+DXF-002,future/coupon-windchest-section.dxf,dxf,dimensioned_drawing,fabrication,,derived_from_authority,"Placeholder record only; chamber dimensions are measurement-required"
+DXF-003,future/single-pipe-control.dxf,dxf,fabrication_geometry,fabrication,,derived_from_authority,"Placeholder record only; pipe geometry waits for P0 coupon data"

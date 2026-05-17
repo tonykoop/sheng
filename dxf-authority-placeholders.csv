@@ -1,0 +1,9 @@
+check_id,area,required_future_artifact,required_layer_or_view,authority_status,dimension_source,next_action,notes
+DXF-001,reed_window,reed-window-coupon.dxf,REED_WINDOW_CUT,placeholder_only,measurement_required,"measure reed tongue outline, frame/window, clamp line, and travel clearance","No cut-ready geometry exists yet"
+DXF-002,reed_window,reed-window-coupon.dxf,CLEARANCE_NO_CUT,placeholder_only,measurement_required,"record material thickness and clearance after coupon setup","Include no-cut note before fabrication"
+DXF-003,gasket,gasket-coupon.dxf,GASKET_CUT,placeholder_only,measurement_required,"measure gasket outline, screw holes, leak land, and compression stop","Gasket land depends on selected reed plate"
+DXF-004,windchest,coupon-windchest-section.dxf,WINDCHEST_SECTION,placeholder_only,measurement_required,"define pressure path, removable cover, and chamber volume after reed size is known","Serviceability is required"
+DXF-005,socket,single-pipe-control.dxf,SOCKET_CENTER_REF,placeholder_only,measurement_required,"record pipe ID, reed ID, target note, acoustic law, end condition, pipe length, and socket center","Only after P0 coupon data"
+DXF-006,boundary_condition,single-pipe-control.dxf,NOTES_NO_CUT,placeholder_only,measurement_required,"write side_branch_reed vs closed_open vs unknown_requires_measurement note","Acoustic-law note must match family-spec.csv"
+DXF-007,serviceability,coupon-assembly.dxf,SERVICE_ACCESS_REF,placeholder_only,measurement_required,"show reed plate removal direction and fastener access","No sealed decorative body at P0"
+DXF-008,validation,coupon-assembly.dxf,COUPON_VARIANT_REF,placeholder_only,measurement_required,"label artifact as P0 coupon or P1 single-pipe control","Must not imply full sheng family"
