@@ -14,3 +14,6 @@ VAL-012,both,p0_pull_down_onset,p0-reed-coupon-log.csv records pull-down target 
 VAL-013,both,windchest_geometry_plan,windchest-geometry-plan.csv records chamber volume pressure path inlet pressure tap gasket land service direction and authority status,open,Fill planning fields before any windchest DXF or CAD
 VAL-014,both,chamber_leakage,p1-single-pipe-control-log.csv records chamber leak method rate leak status and service access result,open,Run low-pressure leak test before interpreting coupled pitch
 VAL-015,both,safety_gates,safety-gates.csv has phase gates checked before reed cutting pressure testing or branch promotion,open,Resolve open stop conditions before P0 or P1 bench work
+VAL-016,both,p0_reed_coupon_data_sheet,p0-reed-coupon-data-sheet.csv has one completed entry per active branch candidate,open,Complete the branch-specific P0 data sheet before P1 planning
+VAL-017,both,p0_pull_down_capture,p0-pull-down-capture-form.csv has pull-down target pressure sweep behavior and choke safety check,open,Run one pull-down capture per active branch candidate
+VAL-018,both,p0_onset_capture,p0-onset-capture-form.csv has onset pressure and blow/draw notes for the selected P0 coupon,open,Run one onset capture per active branch candidate

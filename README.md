@@ -54,10 +54,13 @@ both layouts.
 | `traditional-side-branch/family-spec.csv` | Validator-aligned side-branch reed rows. |
 | `compact-control/family-spec.csv` | Validator-aligned closed-open compact rows. |
 | `p0-reed-coupon-log.csv` | Required reed coupon worksheet before full-family claims. |
+| `p0-reed-coupon-data-sheet.csv` | Detailed P0 geometry and safety-source template for each coupon candidate. |
 | `p1-single-pipe-control-log.csv` | Required coupled reed-pipe worksheet before branch promotion. |
 | `free-reed-empirical-loop.md` | P0/P1 bench protocol with pull-down, onset, leak, and stop gates. |
 | `windchest-geometry-plan.csv` | Chamber, gasket, inlet, pressure tap, and service-access planning table. |
 | `safety-gates.csv` | Safety gates that must pass before cutting, pressure testing, or layout promotion. |
+| `p0-onset-capture-form.csv` | P0 onset capture form for initial free-reed performance checks. |
+| `p0-pull-down-capture-form.csv` | P0 pull-down capture form for target-pitch response checks. |
 | `mouth-organ-dxf-checklist.csv` | Future DXF/CAD authority checklist. |
 | `visual-output-register.csv` | V5 authority register for visuals, print packet, and concept support. |
 | `cad/` | V5 CAD/provenance starter folder; not fabrication authority yet. |
