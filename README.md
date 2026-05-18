@@ -72,6 +72,16 @@ columns. The measurement gate is intentionally still open: no row claims final
 reed dimensions, pull-down behavior, tuning measurements, or build-ready
 windchest geometry.
 
+## Round 33C Measurement Loop Evidence
+
+Issue #8 adds single-pass bench-fill rows for both active P0 reed coupons and
+one compact-control P1 single-pipe row. These rows record source role,
+reed-alone pitch, pull-down/onset behavior, coupled pitch, response notes, and
+leak/service observations, but they remain measurement-loop evidence only.
+Repeat measurements and reviewed CAD/DXF or design-table authority are still
+required before any branch promotion, production geometry, or public-readiness
+claim.
+
 ## Validation Command
 
 ```bash

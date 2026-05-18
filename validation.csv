@@ -2,18 +2,18 @@ gate_id,branch,gate,required_evidence,status,next_action
 VAL-001,both,architecture_choice,architecture-choice.md branch selected before layout,open,Pick one branch for the next drawing or coupon
 VAL-002,traditional-side-branch,acoustic_law_validator,traditional-side-branch/family-spec.csv passes validate_acoustic_law.py,open,Run validator after any row edit
 VAL-003,compact-control,acoustic_law_validator,compact-control/family-spec.csv passes validate_acoustic_law.py,open,Run validator after any row edit
-VAL-004,both,p0_reed_coupon,reed-alone pitch onset pressure blow/draw behavior gap and leak status recorded,open,Fill p0-reed-coupon-log.csv from bench measurements
+VAL-004,both,p0_reed_coupon,reed-alone pitch onset pressure blow/draw behavior gap and leak status recorded,partial_evidence,Round 33C added single-pass P0 rows; repeat before promotion or CAD authority
 VAL-005,traditional-side-branch,p1_single_pipe_control,one measured side-branch pipe confirms or revises side_branch_reed row and cites P0 coupon ID,open,Build one coupon-to-pipe test before full sheng layout
-VAL-006,compact-control,p1_single_pipe_control,one measured closed-open pipe confirms or revises compact row and cites P0 coupon ID,open,Build one coupon-to-pipe test before compact family layout
+VAL-006,compact-control,p1_single_pipe_control,one measured closed-open pipe confirms or revises compact row and cites P0 coupon ID,partial_evidence,Round 33C added one traceable compact P1 row; repeat with measured leak rate before compact branch promotion
 VAL-007,both,dxf_authority,mouth-organ-dxf-checklist.csv completed for chosen branch,open,Create DXF/CAD only after coupon and single-pipe evidence
 VAL-008,both,visual_authority,visual-output-register.csv passes validate_visual_authority.py and generated images are marked concept_only or reference_only,open,Keep CAD DXF design table or measured template as fabrication authority
 VAL-009,both,mcp_provenance,cad/mcp-session-log.md records design-table/Wolfram/visual tool outputs and authority,open,Update the log whenever a CAD creative or runtime tool changes an artifact
 VAL-010,both,wolfram_runtime,wolfram-starter.wl has execution log and committed outputs before runtime claims,open,Run Wolfram only when available and record command/date/output hashes
 VAL-011,both,v5_readiness,README status remains L2 until P0 P1 CAD/DXF and authority gates pass,open,Do not claim L3 or build-ready until evidence exists
-VAL-012,both,p0_pull_down_onset,p0-reed-coupon-log.csv records pull-down target measured pull-down onset method onset pressure and safe pressure limit,open,Run P0 pressure sweep and document stop conditions
-VAL-013,both,windchest_geometry_plan,windchest-geometry-plan.csv records chamber volume pressure path inlet pressure tap gasket land service direction and authority status,open,Fill planning fields before any windchest DXF or CAD
-VAL-014,both,chamber_leakage,p1-single-pipe-control-log.csv records chamber leak method rate leak status and service access result,open,Run low-pressure leak test before interpreting coupled pitch
+VAL-012,both,p0_pull_down_onset,p0-reed-coupon-log.csv records pull-down target measured pull-down onset method onset pressure and safe pressure limit,partial_evidence,Round 33C added single-pass pull-down and onset values; repeat before fabrication authority
+VAL-013,both,windchest_geometry_plan,windchest-geometry-plan.csv records chamber volume pressure path inlet pressure tap gasket land service direction and authority status,partial_evidence,Compact P1 row now has single-pass planning values; keep authority planning-only
+VAL-014,both,chamber_leakage,p1-single-pipe-control-log.csv records chamber leak method rate leak status and service access result,partial_evidence,Compact P1 row records visible-threshold leak result; repeat with quantified leak rate
 VAL-015,both,safety_gates,safety-gates.csv has phase gates checked before reed cutting pressure testing or branch promotion,open,Resolve open stop conditions before P0 or P1 bench work
-VAL-016,both,p0_reed_coupon_data_sheet,p0-reed-coupon-data-sheet.csv has one completed entry per active branch candidate,open,Complete the branch-specific P0 data sheet before P1 planning
-VAL-017,both,p0_pull_down_capture,p0-pull-down-capture-form.csv has pull-down target pressure sweep behavior and choke safety check,open,Run one pull-down capture per active branch candidate
-VAL-018,both,p0_onset_capture,p0-onset-capture-form.csv has onset pressure and blow/draw notes for the selected P0 coupon,open,Run one onset capture per active branch candidate
+VAL-016,both,p0_reed_coupon_data_sheet,p0-reed-coupon-data-sheet.csv has one completed entry per active branch candidate,partial_evidence,Round 33C bench-filled both active branch candidates as repeat-required evidence
+VAL-017,both,p0_pull_down_capture,p0-pull-down-capture-form.csv has pull-down target pressure sweep behavior and choke safety check,partial_evidence,Round 33C added one pull-down capture per active branch candidate; repeat before promotion
+VAL-018,both,p0_onset_capture,p0-onset-capture-form.csv has onset pressure and blow/draw notes for the selected P0 coupon,partial_evidence,Round 33C added one onset capture per active branch candidate; repeat before promotion

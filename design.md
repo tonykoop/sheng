@@ -94,6 +94,12 @@ coupon into one single-pipe control only after safety and leakage gates pass.
 names chamber volume, pressure path, gasket land, pressure tap, inlet, service
 direction, and leak-test evidence that a future DXF or CAD file must carry.
 
+Round 33C adds issue #8 measurement-loop rows for two P0 coupon candidates and
+one compact-control P1 single-pipe control. Treat those rows as single-pass
+bench evidence: useful for traceability and next-test planning, but still
+repeat-required before branch promotion, production reed geometry, DXF/CAD
+authority, or public-readiness claims.
+
 ## Open Measurements
 
 | Measurement | Why It Matters | Status |
