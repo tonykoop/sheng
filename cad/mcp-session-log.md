@@ -15,3 +15,4 @@ without confusing review support with build geometry.
 | 2026-05-17T15:53:32Z | wolfram | wolfram-starter.wl | unknown | cad/p0-p1-control-parameters.csv | analysis_only | Source-only starter; not executed. |
 | 2026-05-17T18:18:02Z | design-table | windchest-geometry-plan.csv | unknown | p1-single-pipe-control-log.csv | analysis_only | Windchest planning fields only; no fabrication geometry. |
 | 2026-05-17T18:18:02Z | measurement-template | safety-gates.csv | unknown | free-reed-empirical-loop.md | analysis_only | Safety gate checklist; open until bench evidence exists. |
+| 2026-05-18T00:00:00Z | design-table | traditional-side-branch/family-spec.csv; compact-control/family-spec.csv | local-codex-round30 | cad/mcp-session-log.md | design_table | Added explicit reed_source_role and unknown_requires_measurement guard fields; still L2 only and not build-ready. |

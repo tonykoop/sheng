@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10",
+  "generated": "2026-05-18",
   "title": "Sheng Mouth-Organ Family Packet",
   "instrument": "sheng",
   "build_target": "sheng mouth-organ family",
@@ -32,15 +32,28 @@
       "branch": "traditional-side-branch",
       "family_spec": "traditional-side-branch/family-spec.csv",
       "acoustic_law": "side_branch_reed",
-      "end_condition": "both_ends_open"
+      "end_condition": "both_ends_open",
+      "reed_source_role": "side_branch_free_reed_controls_pipe_coupling",
+      "unknown_requires_measurement": "p0_reed_coupon_and_p1_single_pipe_required_before_fabrication"
     },
     {
       "branch": "compact-control",
       "family_spec": "compact-control/family-spec.csv",
       "acoustic_law": "closed_open",
-      "end_condition": "one_end_closed_reed"
+      "end_condition": "one_end_closed_reed",
+      "reed_source_role": "free_reed_forms_closed_end_boundary",
+      "unknown_requires_measurement": "p0_reed_coupon_and_p1_single_pipe_required_before_fabrication"
     }
   ],
+  "round30_free_reed_guard": {
+    "explicit_family_spec_fields": [
+      "acoustic_law",
+      "end_condition",
+      "reed_source_role",
+      "unknown_requires_measurement"
+    ],
+    "fabrication_boundary": "No reed dimensions, pull-down data, tuning measurements, or windchest geometry are build-ready until measured P0/P1 evidence and reviewed CAD/DXF/design-table authority exist."
+  },
   "fabrication_authority": "future DXF/CAD/design-table/measured-template only",
   "generated_images_authority": "concept_only_or_reference_only",
   "authority_register": "visual-output-register.csv",

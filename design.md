@@ -23,6 +23,14 @@ physics rows for branch comparison and validator alignment; reed behavior still
 requires measured coupons and a single-pipe control before any full mouth-organ
 layout can be treated as fabrication authority.
 
+Each branch `family-spec.csv` now carries the Round 30 free-reed guard fields:
+`acoustic_law`, `end_condition`, `reed_source_role`, and
+`unknown_requires_measurement`. The two physics rows remain branch-comparison
+scaffolds only; those explicit fields prevent a half-wave side-branch sheng row
+from being confused with a compact closed-open control row, and they keep donor
+reed or handmade reed behavior measurement-required until P0/P1 evidence is
+logged.
+
 ## Architecture Decision First
 
 Before drafting a body, windchest, or pipe rack, choose one branch in

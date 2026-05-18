@@ -66,6 +66,12 @@ both layouts.
 | `cad/` | V5 CAD/provenance starter folder; not fabrication authority yet. |
 | `validation.csv` | Gates that move each branch from scaffold to prototype evidence. |
 
+Both branch family specs carry `acoustic_law`, `end_condition`,
+`reed_source_role`, and `unknown_requires_measurement` as explicit table
+columns. The measurement gate is intentionally still open: no row claims final
+reed dimensions, pull-down behavior, tuning measurements, or build-ready
+windchest geometry.
+
 ## Validation Command
 
 ```bash
