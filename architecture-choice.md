@@ -4,10 +4,10 @@ Pick this before layout, CAD, DXF, sourcing, or full pipe count.
 
 ## Branch Comparison
 
-| Branch | Use When | Acoustic Law | End Condition | First Gate |
-| --- | --- | --- | --- | --- |
-| `traditional-side-branch` | Preserve traditional sheng-like long pipes and side-branch reed coupling. | `side_branch_reed` | `both_ends_open` | Validate one side-branch single pipe after reed coupon. |
-| `compact-control` | Prove a shorter, serviceable prototype module before committing to a traditional body. | `closed_open` | `one_end_closed_reed` | Validate one closed-open single pipe after reed coupon. |
+| Branch | Use When | Acoustic Law | End Condition | Reed Source Role | Measurement Gate |
+| --- | --- | --- | --- | --- | --- |
+| `traditional-side-branch` | Preserve traditional sheng-like long pipes and side-branch reed coupling. | `side_branch_reed` | `both_ends_open` | `side_branch_free_reed_controls_pipe_coupling` | `unknown_requires_measurement` until P0 coupon and P1 side-branch pipe data exist. |
+| `compact-control` | Prove a shorter, serviceable prototype module before committing to a traditional body. | `closed_open` | `one_end_closed_reed` | `free_reed_forms_closed_end_boundary` | `unknown_requires_measurement` until P0 coupon and P1 closed-open pipe data exist. |
 
 ## Traditional Side-Branch
 
@@ -18,7 +18,9 @@ or socket while both pipe ends remain acoustically open.
 This branch uses half-wave pipe lengths in
 `traditional-side-branch/family-spec.csv`. It is longer and less compact, but
 it preserves the traditional boundary-condition claim that issue #153 asks us
-to keep alive.
+to keep alive. The branch family spec names the reed role explicitly as
+`side_branch_free_reed_controls_pipe_coupling` and keeps the measurement gate
+open until P0/P1 evidence exists.
 
 ## Compact Control
 
@@ -29,7 +31,9 @@ iteration.
 This branch uses quarter-wave pipe lengths in
 `compact-control/family-spec.csv`. It should not be described as traditional
 sheng geometry; it is a compact prototype branch for proving reed, gasket,
-socket, and windchest behavior.
+socket, and windchest behavior. The branch family spec names the reed role
+explicitly as `free_reed_forms_closed_end_boundary` and keeps the measurement
+gate open until P0/P1 evidence exists.
 
 ## Shared Unknowns
 
@@ -45,4 +49,3 @@ Both branches need the same evidence before becoming build-ready:
 
 If those measurements are missing, keep the branch label as scaffold or
 prototype-planning, not production-ready.
-
