@@ -8,6 +8,10 @@ Current status: scaffold packet with two explicit architecture variants.
 Fabrication authority: not build-ready.
 Wolfram/runtime status: source-only; no Wolfram runtime validation has been run.
 
+Studio explorer: open `explorer.html` for a generated packet showcase that
+summarizes the design files, branch choices, validation gates, print packet,
+Wolfram starter, and current public-release blockers.
+
 This packet promotes the Round 8 sheng split from issue #153 and the
 `tonykoop/sheng` issue #1 starter packet without choosing a premature winner.
 The first workflow decision is the architecture branch:

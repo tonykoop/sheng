@@ -1,11 +1,32 @@
 {
   "generated": "2026-05-10",
+  "title": "Sheng Mouth-Organ Family Packet",
+  "instrument": "sheng",
+  "build_target": "sheng mouth-organ family",
+  "artifact_focus": "free-reed mouth organ L2 V5 packet with traditional side-branch and compact control variants",
+  "packet_version": "L2 V5 build-packet candidate",
   "packet": "docs/build-packets/sheng-mouth-organ-family",
   "issue": "tonykoop/instrument-maker#153; tonykoop/sheng#1",
   "status": "L2 V5 build-packet candidate",
+  "release_status": "private-review",
   "v5_standard": "tonykoop/instrument-maker#186",
   "mcp_provenance_contract": "tonykoop/instrument-maker#188",
   "runtime_validation": "wolfram-source-only-not-run",
+  "family_members": [
+    "free-reed mouth organ",
+    "traditional side-branch reed",
+    "compact stopped-end control"
+  ],
+  "release_gate": {
+    "public_candidate": false,
+    "required_before_public": [
+      "Select one architecture branch in architecture-choice.md before layout or CAD authority claims.",
+      "Record P0 reed-coupon evidence in p0-reed-coupon-log.csv before final reed pitch, onset pressure, pull-down, or cut-ready socket claims.",
+      "Record P1 single-pipe control and windchest/leakage evidence before branch promotion beyond L2.",
+      "Add reviewed DXF/CAD/design-table authority for the selected branch before fabrication or public-release geometry claims.",
+      "Run and record Wolfram/runtime evidence before treating wolfram-starter.wl as more than source-only scaffold."
+    ]
+  },
   "variants": [
     {
       "branch": "traditional-side-branch",
@@ -28,5 +49,28 @@
   "p1_control_log": "p1-single-pipe-control-log.csv",
   "p0_p1_empirical_loop": "free-reed-empirical-loop.md",
   "windchest_geometry_plan": "windchest-geometry-plan.csv",
-  "safety_gates": "safety-gates.csv"
+  "safety_gates": "safety-gates.csv",
+  "engineering": {
+    "wolfram": [
+      {
+        "source_file": "wolfram-starter.wl",
+        "cloud_url": "",
+        "cloud_path": "wolfram-starter.wl",
+        "kind": "source-only-starter",
+        "permission": "local"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Repository README",
+      "credit": "Local packet status, file map, and validation commands",
+      "url": "README.md"
+    },
+    {
+      "title": "V5 provenance log",
+      "credit": "Local artifact authority and source-only runtime boundaries",
+      "url": "cad/mcp-session-log.md"
+    }
+  ]
 }
