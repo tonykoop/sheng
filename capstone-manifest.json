@@ -24,7 +24,7 @@
       "Record P0 reed-coupon evidence in p0-reed-coupon-log.csv before final reed pitch, onset pressure, pull-down, or cut-ready socket claims.",
       "Record P1 single-pipe control and windchest/leakage evidence before branch promotion beyond L2.",
       "Add reviewed DXF/CAD/design-table authority for the selected branch before fabrication or public-release geometry claims.",
-      "Run and record Wolfram/runtime evidence before treating wolfram-starter.wl as more than source-only scaffold."
+      "Run and record Wolfram/runtime evidence before treating sheng-starter.wl as more than source-only scaffold."
     ]
   },
   "variants": [
@@ -66,9 +66,9 @@
   "engineering": {
     "wolfram": [
       {
-        "source_file": "wolfram-starter.wl",
+        "source_file": "sheng-starter.wl",
         "cloud_url": "",
-        "cloud_path": "wolfram-starter.wl",
+        "cloud_path": "sheng-starter.wl",
         "kind": "source-only-starter",
         "permission": "local"
       }

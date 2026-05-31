@@ -71,7 +71,7 @@ lift/retention stop condition is resolved.
 | VAL-007 | dxf_authority | No DXF/CAD until coupon + single-pipe evidence complete |
 | VAL-008 | visual_authority | visual-output-register.csv validator not yet run |
 | VAL-009 | mcp_provenance | No MCP CAD session has produced fabrication artifacts |
-| VAL-010 | wolfram_runtime | wolfram-starter.wl is source-only; not executed |
+| VAL-010 | wolfram_runtime | sheng-starter.wl is source-only; not executed |
 | VAL-015 | safety_gates | Open stop conditions remain before P0/P1 bench work |
 
 ## Next Actions
