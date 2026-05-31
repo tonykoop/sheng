@@ -8,7 +8,7 @@ VAL-006,compact-control,p1_single_pipe_control,one measured closed-open pipe con
 VAL-007,both,dxf_authority,mouth-organ-dxf-checklist.csv completed for chosen branch,open,Create DXF/CAD only after coupon and single-pipe evidence
 VAL-008,both,visual_authority,visual-output-register.csv passes validate_visual_authority.py and generated images are marked concept_only or reference_only,open,Keep CAD DXF design table or measured template as fabrication authority
 VAL-009,both,mcp_provenance,cad/mcp-session-log.md records design-table/Wolfram/visual tool outputs and authority,open,Update the log whenever a CAD creative or runtime tool changes an artifact
-VAL-010,both,wolfram_runtime,wolfram-starter.wl has execution log and committed outputs before runtime claims,open,Run Wolfram only when available and record command/date/output hashes
+VAL-010,both,wolfram_runtime,sheng-starter.wl has execution log and committed outputs before runtime claims,open,Run Wolfram only when available and record command/date/output hashes
 VAL-011,both,v5_readiness,README status remains L2 until P0 P1 CAD/DXF and authority gates pass,open,Do not claim L3 or build-ready until evidence exists
 VAL-012,both,p0_pull_down_onset,p0-reed-coupon-log.csv records pull-down target measured pull-down onset method onset pressure and safe pressure limit,partial_evidence,Round 33C added single-pass pull-down and onset values; repeat before fabrication authority
 VAL-013,both,windchest_geometry_plan,windchest-geometry-plan.csv records chamber volume pressure path inlet pressure tap gasket land service direction and authority status,partial_evidence,Compact P1 row now has single-pass planning values; keep authority planning-only

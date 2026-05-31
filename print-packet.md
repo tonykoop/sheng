@@ -62,4 +62,4 @@ source artifacts. Wolfram work is source-only unless runtime evidence is added.
 - `drawing-brief.md`
 - `visual-bom-brief.md`
 - `risks.md`
-- `wolfram-starter.wl`
+- `sheng-starter.wl`
