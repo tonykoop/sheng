@@ -64,6 +64,8 @@ both layouts.
 | `mouth-organ-dxf-checklist.csv` | Future DXF/CAD authority checklist. |
 | `visual-output-register.csv` | V5 authority register for visuals, print packet, and concept support. |
 | `cad/` | V5 CAD/provenance starter folder; not fabrication authority yet. |
+| `wolfram/` | Source-only Wolfram model (`sheng-wolfram-model.wl`); not executed. |
+| `evolution/` | Stage 0 evolution-pipeline intake (design intent, revision register, master manifest); Gate A not yet run. |
 | `validation.csv` | Gates that move each branch from scaffold to prototype evidence. |
 
 Both branch family specs carry `acoustic_law`, `end_condition`,
