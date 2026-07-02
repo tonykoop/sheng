@@ -1,0 +1,42 @@
+{
+  "product": "sheng",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "pre-commit-2026-07-01",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/sheng.scad",
+      "format": "openscad-source",
+      "sha256": "695142b5c0cb4ef439ee537e12c7555de688d43d194713c1f1f25c70422e50e9",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Envelope-only pipe-rank master for both branches (traditional-side-branch, compact-control). Lengths from family-spec.csv predicted_L_geom_mm; reed/reed-table geometry, windchest chamber, and voicing are out of scope and unmodeled."
+    },
+    {
+      "path": "traditional-side-branch/family-spec.csv",
+      "format": "design-table",
+      "sha256": "b47adbbefbd0d1ecc64dc0abc944b9fe332aedd9946f84c5a092b5edc4d9c62f",
+      "authority": "physics_derived_analysis_only",
+      "lossy": false,
+      "notes": "Half-wave side-branch pipe-rank table (D4-G5), dimension_provenance=physics_derived, not cut-ready per cad/p0-p1-control-parameters.csv (CAD-P1-TRAD-001)."
+    },
+    {
+      "path": "compact-control/family-spec.csv",
+      "format": "design-table",
+      "sha256": "59520daadd1f13a5ab16e09da1f7fe91ae88ca3afb64b3034391aa04bb44c8d8",
+      "authority": "physics_derived_analysis_only",
+      "lossy": false,
+      "notes": "Quarter-wave closed-open pipe-rank table (D4-G5), dimension_provenance=physics_derived, not cut-ready per cad/p0-p1-control-parameters.csv (CAD-P1-COMP-001)."
+    },
+    {
+      "path": "wolfram/sheng-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "333a3ca5f9698f25e07853241b3c96796582b6f8a02bea4f82fe2344f6e72b32",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Source-only (not executed); L2 evidence. Generated via generate_wolfram_packet.py, distinct from root sheng-starter.wl (Tier-1 starter)."
+    }
+  ],
+  "notes": "Stage 0 intake only. No STEP export and no Alpha shop-compile (Gate A) has been run for this product. Reed-coupon (P0) and single-pipe control (P1) measurements are still outstanding for both branches (free-reed-empirical-loop.md, cad/p0-p1-control-parameters.csv) — reed/reed-table geometry, windchest chamber, and voicing remain unmodeled and out of scope for cad/sheng.scad. Both architecture branches (traditional-side-branch, compact-control) are listed because this packet explicitly compares them; neither is picked as a winner."
+}
